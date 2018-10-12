@@ -5,7 +5,7 @@
 
 ## For Building Interaction Model 
 
-1. **Build the Interaction Model for your skill**
+1. **Build an Interaction Model for your skill**
     1. On the left hand navigation panel, select the **JSON Editor** tab under **Interaction Model**. In the textfield provided, replace any existing code with the code provided in the [Interaction Model](./models/en-US.json).  Click **Save Model**.
     2. If you want to change the skill invocation name, select the **Invocation** tab. Enter a **Skill Invocation Name**. This is the name that your users will need to say to start your skill.  In this case, it's preconfigured to be 'Hello World'.
     3. Click "Build Model".
@@ -21,12 +21,12 @@
 
 
 
-1. Update HelloWorldIntentHandler to WelcomeIntentHandler and change the intent name to WelcomeIntent
-2. Add line of code to read the name from slot and add to messages
-    1. nameSlot = handlerInput.requestEnvelope.request.intent.slots.name.value
-    2. Welcome Intent = `Hey ${nameSlot}, Glad that your using our skill`
+1. Update HelloWorldIntentHandler to WelcomeIntentHandler and change the intent name to WelcomeIntent.
+2. Add line of code to read the name from slot and add to messages.
+    1. nameSlot = handlerInput.requestEnvelope.request.intent.slots.name.value.
+    2. Welcome Intent = `Hey ${nameSlot}, Glad that your using our skill`.
 3. Change the messages
-    1. Launch Request Intent = 'Welcome to Alexa Bangalore Meetup Skill.! What is your name?'
-    2. Help Intent = 'Your in Alexa Bangalore Meetup Skill.! What is your name?';
-4. Add Reprompts for Launch and Help Intent
+    1. Launch Request Intent = 'Welcome to Alexa Bangalore Meetup Skill.! What is your name?'.
+    2. Help Intent = 'Your in Alexa Bangalore Meetup Skill.! What is your name?'.
+4. Add Reprompts for Launch and Help Intent.
 5. Zip the node module + index.js files and upload in Lambda.
