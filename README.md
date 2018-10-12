@@ -8,7 +8,7 @@
 - Divided the tutorial into three sections.
   - 1.LaunchRequest - Explains how to build a Bangalore Meetup Alexa Skill for Welcoming Audience using only Launch Request  
   - 2.WithSlot-Name - Explains how to use slots and built-in slot type using the code we built in Launch Request section and make use of Welcome Intent 
-  - 3.WithCustomSlotType-Technology - Explains how to use custom slot types, Deligate dialogs to fill all the slots an dprovide user customized messages based on the users input using the code we built in WithSlot-Name section
+  - 3.WithCustomSlotType-Technology - Explains how to use custom slot types, Deligate dialogs to fill all the slots and provide user customized messages based on the users input using the code we built in WithSlot-Name section
   
 - This code is using the [Alexa Skill Kit SDK for NodeJS v2](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs).
 
