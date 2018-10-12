@@ -10,7 +10,7 @@
     3. Click "Build Model".
     
 ## For Developing Lambda function using AWS
-- **Open** this Lambda function [source code file](../lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file.
+- **Open** this Lambda function [source code file](./lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file.
 
 
 
