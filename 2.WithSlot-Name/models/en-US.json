@@ -1,0 +1,43 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bangalore meetup",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WelcomeIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "{name}",
+                        "my name is {name}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
