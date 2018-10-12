@@ -39,4 +39,3 @@
  or **Open** this Lambda function [source code file](../lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file
 6. Zip the node module + index.js files and upload in Lambda.
 7. You should see the Amazon Resource Name (ARN) a unique identifier for this function in the top right corner of the page. **Copy the ARN value for this Lambda function** and add it in Alexa developer console to link it.
-7. 
