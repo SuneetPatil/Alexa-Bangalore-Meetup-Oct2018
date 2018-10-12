@@ -1,8 +1,9 @@
 # Build An Simple Bangalore Meetup Alexa Skill
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
-## This is a simple tutorial to introduce a simple Alexa skill and code for welcoming the Audience for the meetup.
 
+## Description
+- This is a simple tutorial to introduce a simple Alexa skill and code for welcoming the Audience for the meetup.
 - This tutorial will walk first-time Alexa skills developers through all the required steps involved in creating a skill called 'Bangalore Meetup' using the hello world template to welcome all the audience. 
 
 - Divided the tutorial into three sections.
