@@ -36,6 +36,6 @@
         1. Launch Request Intent = 'Welcome to Alexa Bangalore Meetup Skill.!'
         2. Help Intent = 'Your in Alexa Bangalore Meetup Skill.!'
         3. Cancel/Stop Intent = 'Thanks for using Alexa Bangalore Meetup Skill.! Goodbye!'
- or **Open** this Lambda function [source code file](../lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file
+ or **Open** this Lambda function [source code file](./lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file
 6. Zip the node module + index.js files and upload in Lambda.
 7. You should see the Amazon Resource Name (ARN) a unique identifier for this function in the top right corner of the page. **Copy the ARN value for this Lambda function** and add it in Alexa developer console to link it.
