@@ -1,8 +1,9 @@
-# Explains how to use slots and built-in slot type using the code we built in Launch Request section and make use of Welcome Intent
+# Build an Alexa Bangalore meetup Skill using slots and built-in slot types
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
-## For Building Interaction Model
-- This tutorial will explains how to use slots and built-in slot type using the code we built in Launch Request section and make use of Welcome Intent. 
+- This tutorial will explains how to use slots and built-in slot type using the code we built in Launch Request section and make use of Welcome Intent.
+
+## For Building Interaction Model 
 
 1. **Build the Interaction Model for your skill**
     1. On the left hand navigation panel, select the **JSON Editor** tab under **Interaction Model**. In the textfield provided, replace any existing code with the code provided in the [Interaction Model](./models/en-US.json).  Click **Save Model**.
