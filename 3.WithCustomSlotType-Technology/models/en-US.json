@@ -28,7 +28,7 @@
                     "slots": [
                         {
                             "name": "name",
-                            "type": "AMAZON.US_FIRST_NAME",
+                            "type": "AMAZON.FirstName",
                             "samples": [
                                 "my name is {name}",
                                 "{name}"
@@ -78,7 +78,7 @@
                     "slots": [
                         {
                             "name": "name",
-                            "type": "AMAZON.US_FIRST_NAME",
+                            "type": "AMAZON.FirstName",
                             "confirmationRequired": false,
                             "elicitationRequired": true,
                             "prompts": {
